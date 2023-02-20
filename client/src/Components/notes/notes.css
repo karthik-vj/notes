@@ -1,0 +1,90 @@
+body {
+    background-color: #bfbdbd;
+  }
+.main{
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom{
+    
+    position: absolute;
+    top: 50%;
+}
+
+.note{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 75%;
+    height: 55px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.note-title{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 35%;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold
+}
+h1{
+    font-family: Trattatello, fantasy;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.note-btn{
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: blanchedalmond;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    font-weight: bold
+  }
+  
+  .card-body {
+    padding: 50px;
+    font-family: cursive;
+    font-weight: bold
+  }
+  
+  .card-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  .card-container img{
+    width: 20px;
+    margin-left: 10px;
+  }
